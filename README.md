@@ -2,6 +2,6 @@
 Repository for final lesson before mid term of computer graphic course
 
 # Identity
-Name: Muhammad Azzam Azizi
-NIM: 1313623047
+Name: Muhammad Azzam Azizi\
+NIM: 1313623047\
 Class: Ilmu Komputer 23 B

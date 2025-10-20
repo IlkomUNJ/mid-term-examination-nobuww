@@ -1,20 +1,20 @@
 ## Correct window size for identifying segment
 i think 3x3 window size is already correct for identifying a segment because it already capture horizontal, vertical, and diagonal line. **example:**
 
-**horizontal line:**
+**horizontal line:**\
 false false false\
 true  true  true\
-false false false\
+false false false
 
-**vertical line:**
+**vertical line:**\
 false true false\
 false true false\
-false true false\
+false true false
 
-**diagonal line:**
+**diagonal line:**\
 true false false\
 false true false\
-false false true\
+false false true
 
 where true = pixel is not white, false = pixel is white (empty)
 

@@ -25,10 +25,11 @@ private:
 public:
     explicit DrawingCanvas(QWidget *parent = nullptr);
 
+public slots: // <-- CHANGED
     // Slot to clear all points from the canvas
-    void clearPoints();
-    void paintLines();
-    void segmentDetection();
+    void clearPoints(); // <-- CHANGED
+    void paintLines(); // <-- CHANGED
+    void segmentDetection(); // <-- CHANGED
 
 protected:
     // Overridden method to handle painting on the widget
@@ -40,6 +41,7 @@ protected:
 private:
     // A vector to store all the points drawn by the user
     QVector<QPoint> m_points;
+    QVector<QRect> m_rects;
 
     bool isPaintLinesClicked = false;
 };
